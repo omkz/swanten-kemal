@@ -1,0 +1,13 @@
+name: swanten-kemal
+version: 0.1.0
+
+authors:
+  - Kurnia Muhamad <omenkzz@gmail.com>
+
+targets:
+  swanten-kemal:
+    main: src/swanten-kemal.cr
+
+crystal: 0.32.1
+
+license: MIT
