@@ -4,6 +4,10 @@ version: 0.1.0
 authors:
   - Kurnia Muhamad <omenkzz@gmail.com>
 
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
 targets:
   swanten-kemal:
     main: src/swanten-kemal.cr

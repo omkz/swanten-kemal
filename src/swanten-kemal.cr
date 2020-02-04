@@ -1,6 +1,7 @@
-# TODO: Write documentation for `Swanten::Kemal`
-module Swanten::Kemal
-  VERSION = "0.1.0"
+require "kemal"
 
-  # TODO: Put your code here
+get "/" do
+  "Hello World!"
 end
+
+Kemal.run
